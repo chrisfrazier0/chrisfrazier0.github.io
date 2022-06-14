@@ -1,0 +1,83 @@
+:root {
+    --sans-font: "Open Sans", Arial, Helvetica, "Helvetica Neue", sans-serif;
+    --bg: #FFF;
+    --text: #5F5F5F;
+    --text-accent: #000;
+    --link: #07B4FF;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #212121;
+        --text: #DCDCDC;
+        --text-accent: #FEFEFE;
+        --link: #FB3;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    background: var(--bg);
+    font-family: var(--sans-font);
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 1.65;
+    color: var(--text);
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    padding: 0 25px;
+    margin-top: -7%;
+}
+
+@media (min-width: 550px) {
+    .main {
+        padding: 0;
+        max-width: 550px;
+    }
+}
+
+h1 {
+    font-size: 3.0rem;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 25px;
+    color: var(--text-accent);
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 17px;
+}
+
+@media (min-width: 550px) {
+    p {
+        text-align: left;
+    }
+}
+
+a, a:hover, a:visited {
+    color: var(--link);
+    text-decoration: none;
+}
+
+.links a {
+    margin-right: 13px;
+}
