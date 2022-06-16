@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600');
+
 :root {
     --sans-font: "Open Sans", Arial, Helvetica, "Helvetica Neue", sans-serif;
     --bg: #FFF;
@@ -43,14 +45,15 @@ body {
 }
 
 .main {
+    max-width: 270px;
     padding: 0 25px;
     margin-top: -7%;
 }
 
 @media (min-width: 550px) {
     .main {
-        padding: 0;
         max-width: 550px;
+        padding: 0;
     }
 }
 
@@ -63,14 +66,7 @@ h1 {
 }
 
 p {
-    text-align: justify;
     margin-bottom: 17px;
-}
-
-@media (min-width: 550px) {
-    p {
-        text-align: left;
-    }
 }
 
 a, a:hover, a:visited {
