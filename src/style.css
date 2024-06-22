@@ -37,18 +37,6 @@ body {
     color: var(--text);
 }
 
-.hide {
-    display: none;
-    visibility: hidden;
-}
-
-@media (min-width: 550px) {
-    .hide {
-        display: initial;
-        visibility: initial;
-    }
-}
-
 .container {
     position: absolute;
     width: 100%;

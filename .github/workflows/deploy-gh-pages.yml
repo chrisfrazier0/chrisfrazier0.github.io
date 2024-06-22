@@ -18,5 +18,5 @@ jobs:
           git worktree add deploy deploy
           rsync -avP --exclude=.git --delete ./src/ ./deploy/
           git -C deploy add -A
-          git -C deploy commit -am "ci: deploy-gh-pages"
+          git -C deploy commit --allow-empty -am "ci: deploy-gh-pages"
           git -C deploy push origin deploy
