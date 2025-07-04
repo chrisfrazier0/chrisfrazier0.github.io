@@ -2,19 +2,19 @@
 
 :root {
   --sans-font: "Open Sans", Arial, Helvetica, "Helvetica Neue", sans-serif;
-  --bg: #FFF;
-  --text: #5F5F5F;
+  --bg: #FEFEFE;
+  --text: #5E5E5E;
   --text-accent: #000;
-  --link: #07b4ff;
+  --link: #57A0D9;
   --particles: rgba(50, 50, 50, 0.11);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #212121;
+    --bg: #19171A;
     --text: #DCDCDC;
     --text-accent: #FEFEFE;
-    --link: #FB3;
+    --link: #57A0D9;
     --particles: rgba(255, 255, 255, 0.07);
   }
 }
@@ -191,7 +191,7 @@ a, a:hover, a:active, a:visited {
 }
 
 .bmc-btn {
-  scale: 0.7;
+  scale: 0.65;
   position: absolute;
   top: 10px;
   right: 0;
