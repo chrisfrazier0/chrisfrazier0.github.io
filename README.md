@@ -19,8 +19,8 @@ Minimal, v-card style holding page for GitHub pages.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[site-shield]: https://img.shields.io/website?style=for-the-badge&down_color=red&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Fchris.frazier.software
-[site-url]: https://code.frazier.software
+[site-shield]: https://img.shields.io/website?style=for-the-badge&down_color=red&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Flab.frazier.software
+[site-url]: https://lab.frazier.software
 [license-shield]: https://img.shields.io/github/license/chrisfrazier0/chrisfrazier0.github.io.svg?style=for-the-badge
 [license-url]: https://github.com/chrisfrazier0/smile/blob/main/LICENSE.txt
 [commit-shield]: https://img.shields.io/github/last-commit/chrisfrazier0/chrisfrazier0.github.io/main?style=for-the-badge
